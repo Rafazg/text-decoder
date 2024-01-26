@@ -25,7 +25,15 @@
   }
 
   .text-container input{
+    border: 2px;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+  }
 
+  .text-container input::placeholder{
+    color: #0a3871;
+    font-size: 30px;
   }
 
   .center-container{
